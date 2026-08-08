@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+websockets
+uiautomation; sys_platform == 'win32'
+pywin32; sys_platform == 'win32'
+psutil
+playwright
+aiosqlite
+supabase
+speechbrain
+openwakeword
+pyaudio
+groq
