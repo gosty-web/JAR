@@ -44,7 +44,7 @@ async def startup_event():
     logger.info("Initializing JAR Core components...")
     
     tracker = WorldStateTracker(db_path="jar_world_state.db")
-    await tracker.init_db()
+    await tracker.initialize()
     
     reader = ScreenReader()
     action = ActionService()
